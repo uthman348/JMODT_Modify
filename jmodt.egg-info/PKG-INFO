@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: jmodt
+Version: 1.0.0+82f36cd
+Summary: JMODT is a codebase for 3D multi-object detection and tracking with camera-LiDAR fusion
+Author: Kemiao Huang
+Author-email: 12032943@mail.sustech.edu.cn
+License: MIT
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: torch>=1.5
+Requires-Dist: numba
+Requires-Dist: easydict
+Requires-Dist: pyyaml
+Requires-Dist: scipy
+Requires-Dist: fire
+Requires-Dist: ortools
+Requires-Dist: filterpy
+Requires-Dist: munkres
+Requires-Dist: tqdm
+Requires-Dist: tensorboardX
