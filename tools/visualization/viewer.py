@@ -193,11 +193,11 @@ def create_video(img_dir, video_name, size, fps=10):
 
 if __name__ == '__main__':
     viewer = KittiSequenceViewer(
-        root_dir='/media/kemo/Kemo/Kitti/tracking/training',
+        root_dir='/home/umusa/JMODT/data/tracking/training',
         seq=0,
         output_dir='jmodt',
         viewpoint_file='viewpoint.json',
-        label_dir='/media/kemo/Kemo/Kitti/tracking/training/label_02 (jmodt)',
+        label_dir='/home/umusa/JMODT/data/tracking/training/label_02',
         radius=0.1,
         trajectory_len=20
     )
